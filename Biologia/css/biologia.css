@@ -1,0 +1,27 @@
+body {
+  background-color: #111;
+  color: white;
+}
+h1 {
+  font-size: 100px;
+  letter-spacing: 10px;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(0.79, rgb(209, 3, 250)),
+    color-stop(0.03, rgb(255, 0, 0)),
+    color-stop(0.76, rgb(51, 24, 173))
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+p {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-weight: 900;
+}
+a {
+  text-decoration: none;
+}
