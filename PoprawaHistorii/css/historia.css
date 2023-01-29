@@ -1,0 +1,32 @@
+body {
+  background: #191c29;
+  color: white;
+}
+h1 {
+  font-size: 100px;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(0.79, rgb(209, 3, 250)),
+    color-stop(0.03, rgb(255, 0, 0)),
+    color-stop(0.76, rgb(51, 24, 173))
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+p {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+a {
+  text-decoration: none;
+}
+* {
+  background: #191c29;
+}
+li {
+  font-size: 30px;
+}
