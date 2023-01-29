@@ -1,5 +1,5 @@
 body {
-  background-color: #111;
+  background: #191c29;
   color: white;
 }
 h1 {
@@ -15,15 +15,18 @@ h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-p {
+/* p {
   align-items: center;
   display: flex;
   justify-content: center;
-  font-weight: 900;
-}
+  font-weight: 900; 
+} */
 a {
   text-decoration: none;
 }
 * {
-  background-color: #111;
+  background: #191c29;
+}
+li {
+  font-size: 30px;
 }
